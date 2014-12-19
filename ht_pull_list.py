@@ -82,7 +82,7 @@ for ht in ht_list:
 		ht_list_format = ht_list_format + ht_obj + ","
 
 # Use the template HTML and populate the correct data
-with open('index.html', 'w') as html_towrite:
+with open('ht_wordcloud.html', 'w') as html_towrite:
 	with open('html/template_index.html', 'r') as htmltemplate:
 		for line in htmltemplate:
 			if "###ht_pull###" in line:
